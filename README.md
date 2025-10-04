@@ -4,7 +4,6 @@ This is an official implementation of "Doodle to Detect: A Goofy but Powerful Ap
 **Doodle to Detect: A Goofy but Powerful Approach to Skeleton-based Hand Gesture Recognition**
 
 <p align="left">
-  <a href="#"><img src="https://img.shields.io/badge/Paper-arXiv-8A2BE2.svg" alt="arXiv"></a>
   <a href="#"><img src="https://img.shields.io/badge/Conference-NeurIPS%202025-228B22.svg" alt="NeurIPS 2025"></a>
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-black.svg" alt="License"></a>
 </p>
