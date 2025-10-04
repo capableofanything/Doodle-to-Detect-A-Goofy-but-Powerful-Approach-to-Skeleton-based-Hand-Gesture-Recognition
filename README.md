@@ -10,9 +10,9 @@ This is an official implementation of "Doodle to Detect: A Goofy but Powerful Ap
 </p>
 
 <p align="center">
-  <img src="assets/Fig2.svg" alt="SKETCH overview / pipeline" width="85%">
+  <img src="assets/architecture.svg" alt="SKETCH overview / pipeline" width="85%">
 </p>
-<p align="center"><em>Figure 2. High-level overview of SKETCH.</em></p>
+<p align="center"><em>High-level overview of SKETCH.</em></p>
 
 ## Table of Contents
 - [Features](#features)
@@ -31,5 +31,3 @@ This is an official implementation of "Doodle to Detect: A Goofy but Powerful Ap
 ```bash
 git clone https://github.com/<your-username>/SKETCH.git
 cd SKETCH
-conda create -n sketch python=3.10 -y && conda activate sketch
-pip install -r requirements.txt
