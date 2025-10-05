@@ -30,3 +30,4 @@ This is an official implementation of "Doodle to Detect: A Goofy but Powerful Ap
 ```bash
 git clone https://github.com/<your-username>/SKETCH.git
 cd SKETCH
+d
