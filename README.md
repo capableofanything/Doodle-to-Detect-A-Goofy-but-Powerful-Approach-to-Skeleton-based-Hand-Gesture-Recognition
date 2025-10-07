@@ -105,7 +105,7 @@ start a discussion, or submit a pull request — we’d love to hear from you.
 ### Note  
 This paper has been **accepted to NeurIPS 2025 (camera-ready in progress)**.  
 The final citation will be updated upon publication.  
-
+asdf
 ```bibtex
 @inproceedings{SKETCH,
   title     = {Doodle to Detect: A Goofy but Powerful Approach to Skeleton-based Hand Gesture Recognition},
