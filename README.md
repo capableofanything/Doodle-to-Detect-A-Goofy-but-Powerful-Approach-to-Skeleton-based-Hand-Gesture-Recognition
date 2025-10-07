@@ -15,11 +15,11 @@ This is the official implementation of
 - [Community & Contribution](#community--contribution)
 - [Citation](#citation)
 - [License](#license)
-- [Contact](#Contact)
+- [Contact](#contact)
 
 ---
 
-## 🧠 Overview  
+## 🧠 Overview <a id="overview"></a>
 SKETCH is a novel skeleton-based hand gesture recognition framework that directly transforms raw 4D skeleton sequences into interpretable visual graph representations. It introduces a learnable Dynamic Range Embedding (DRE) to preserve motion magnitudes and applies per-window normalization for robustness to viewpoint and body variations. Leveraging pre-trained vision backbones, SKETCH achieves state-of-the-art accuracy and generalization on SHREC’19 and SHREC’22 benchmarks.
 
 <p align="center">
@@ -29,7 +29,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 
 ---
 
-## 🛠️ Development Progress  
+## 🛠️ Development Progress <a id="development-progress"></a>
 ### Core Implementation  
 - [ ] Demo script (coming soon)
 - [ ] Release pretrained model (SHREC'22)  
@@ -39,16 +39,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 
 ---
 
-## 🤝 Community & Contribution  
-We encourage everyone to try applying **SKETCH** to other human action recognition tasks  
-and share your results or insights with the community!
-
-If you adapt or extend our framework, feel free to open an issue,  
-start a discussion, or submit a pull request — we’d love to hear from you.
-
----
-
-## 📊 Results  
+## 📊 Results  <a id="results"></a>
 
 <p align="left">
   <img src="assets/joint_attention.svg" alt="SKETCH overview / pipeline" width="65%">
@@ -95,14 +86,14 @@ start a discussion, or submit a pull request — we’d love to hear from you.
 | **SKETCH (S-L-4-12-384)** | **0.92** | 0.07 | **0.87** | 8.0 | 0.0124 |  |  |  | ✓ |
 
 ---
-## ⚙️ Installation  
+## ⚙️ Installation  <a id="installation"></a>
 ```bash
 git clone https://github.com/capableofanything/SKETCH.git
 cd SKETCH
 pip install -r requirements.txt
 ```
 ---
-## 🤝 Community & Contribution  
+## 🤝 Community & Contribution   <a id="community--contribution"></a>
 We encourage everyone to try applying **SKETCH** to other human action recognition tasks  
 and share your results or insights with the community!
 
@@ -110,7 +101,7 @@ If you adapt or extend our framework, feel free to open an issue,
 start a discussion, or submit a pull request — we’d love to hear from you.
 
 ---
-## 📚 Citation  
+## 📚 Citation  <a id="citation"></a>
 
 ### Note  
 This paper has been **accepted to NeurIPS 2025 (camera-ready in progress)**.  
@@ -127,11 +118,11 @@ The final citation will be updated upon publication.
 ```
 
 ---
-## 🪪 License
+## 🪪 License <a id="license"></a>
 This project is licensed under the MIT License.
 
 ---
-## 📧 Contact  
+## 📧 Contact  <a id="contact"></a>
 For questions, collaborations, or feedback, please contact:  
 **SangHoon Han** (Co-first Authors) — [leo4102@sogang.ac.kr](mailto:leo4102@sogang.ac.kr)  
 **Seonho Lee** (Co-first Authors) — [sunhozizi@sogang.ac.kr](mailto:sunhozizi@sogang.ac.kr)  
