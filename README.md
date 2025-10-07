@@ -1,6 +1,5 @@
 # 🎨 SKETCH  
-This is the official implementation of  
-**"Doodle to Detect: A Goofy but Powerful Approach to Skeleton-based Hand Gesture Recognition".**
+This is the official implementation of  **"Doodle to Detect: A Goofy but Powerful Approach to Skeleton-based Hand Gesture Recognition".**
 
 <p align="left">
   <a href="#"><img src="https://img.shields.io/badge/Conference-NeurIPS%202025-228B22.svg" alt="NeurIPS 2025"></a>
