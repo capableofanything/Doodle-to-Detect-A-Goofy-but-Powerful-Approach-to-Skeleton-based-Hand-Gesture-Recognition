@@ -30,7 +30,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 
 ## 🛠️ Development Progress <a id="development-progress"></a>
 ### Core Implementation  
-- [ ] Demo script (coming soon)
+- [x] Demo script (coming soon)
 - [ ] Release pretrained model (SHREC'22)  
 - [ ] Add training pipeline (SHREC'22)  
 - [ ] Release pretrained model (SHREC'19)  
@@ -87,11 +87,43 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 ---
 ## ⚙️ Installation  <a id="installation"></a>
 ```bash
+conda create -n sketch python=3.7 -y
+conda activate sketch
 git clone https://github.com/capableofanything/SKETCH.git
 cd SKETCH
 pip install -r requirements.txt
 ```
+### 📂 Dataset Structure
+
+#### SHREC'22
+
+The dataset should be organized as follows:
+
+```bash
+SKETCH/
+└── shrec22/
+    └── SHREC2022/        # SHREC'22 dataset root
+        ├── shrec2022_training_set/
+        │   ├── annotations.txt
+        │   ├── 1.txt
+        │   ├── 2.txt
+        │   └── ...
+        └── shrec2022_test_set/
+            ├── annotations.txt
+            ├── 1.txt
+            ├── 2.txt
+            └── ...
+```
 ---
+
+### 🚀 Demo Script
+
+The `demo.py` script generates a small sample of **SHREC'22** windows and corresponding stacked coordinate images.  
+```bash
+python demo.py --num_files 2 --window 16 --stride 1
+```
+---
+
 ## 🤝 Community & Contribution   <a id="community--contribution"></a>
 We encourage everyone to try applying **SKETCH** to other human action recognition tasks  
 and share your results or insights with the community!
