@@ -30,7 +30,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 
 ## 🛠️ Development Progress <a id="development-progress"></a>
 ### Core Implementation  
-- [x] Demo script (coming soon)
+- [x] Demo script
 - [ ] Release pretrained model (SHREC'22)  
 - [ ] Add training pipeline (SHREC'22)  
 - [ ] Release pretrained model (SHREC'19)  
