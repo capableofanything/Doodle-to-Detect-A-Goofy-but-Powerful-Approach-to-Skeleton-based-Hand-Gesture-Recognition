@@ -1,0 +1,16 @@
+numpy==1.19.5
+Pillow==9.4.0
+h5py==3.7.0
+regex==2021.10.23
+ftfy==6.1.1
+tqdm==4.62.3
+natsort==8.4.0
+matplotlib==3.5.3
+seaborn==0.12.2
+scikit-learn==1.0.2
+timm==0.6.12
+
+# PyTorch (CUDA 11.1)
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+-f https://download.pytorch.org/whl/torch_stable.html
