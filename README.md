@@ -45,10 +45,10 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 </p>
 <p align="left"><em>Figure 2. Visualization of joint-level attention for gestures in the SHREC’22 dataset.</em></p>
 
-<p align="center">
+<p align="left">
   <img src="assets/Sketch_visualization.gif" alt="Visualization of gesture-level attention" width="70%">
 </p>
-<p align="center"><em>Figure 3. Visualization of gesture-level attention.</em></p>
+<p align="left"><em>Figure 3. Visualization of gesture-level attention.</em></p>
 
 
 ### Comparison on SHREC’19  
