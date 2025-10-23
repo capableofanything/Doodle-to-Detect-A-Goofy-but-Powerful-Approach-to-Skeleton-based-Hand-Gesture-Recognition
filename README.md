@@ -6,7 +6,7 @@ This is the official implementation of  **"Doodle to Detect: A Goofy but Powerfu
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-black.svg" alt="License"></a>
 </p>
 
-## 📑 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Development Progress](#development-progress)
 - [Results](#results)
@@ -18,7 +18,7 @@ This is the official implementation of  **"Doodle to Detect: A Goofy but Powerfu
 
 ---
 
-## 🧠 Overview <a id="overview"></a>
+## Overview <a id="overview"></a>
 SKETCH is a novel skeleton-based hand gesture recognition framework that directly transforms raw 4D skeleton sequences into interpretable visual graph representations. It introduces a learnable Dynamic Range Embedding (DRE) to preserve motion magnitudes and applies per-window normalization for robustness to viewpoint and body variations. Leveraging pre-trained vision backbones, SKETCH achieves state-of-the-art accuracy and generalization on SHREC’19 and SHREC’22 benchmarks.
 
 <p align="center">
@@ -28,7 +28,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 
 ---
 
-## 🛠️ Development Progress <a id="development-progress"></a>
+## Development Progress <a id="development-progress"></a>
 ### Core Implementation  
 - [x] Demo script
 - [ ] Release pretrained model (SHREC'22)  
@@ -38,7 +38,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 
 ---
 
-## 📊 Results  <a id="results"></a>
+## Results  <a id="results"></a>
 
 <p align="left">
   <img src="assets/joint_attention.svg" alt="SKETCH overview / pipeline" width="65%">
@@ -90,7 +90,7 @@ SKETCH is a novel skeleton-based hand gesture recognition framework that directl
 | **SKETCH (S-L-4-12-384)** | **0.92** | 0.07 | **0.87** | 8.0 | 0.0124 |  |  |  | ✓ |
 
 ---
-## ⚙️ Installation  <a id="installation"></a>
+## Installation  <a id="installation"></a>
 ```bash
 conda create -n sketch python=3.7 -y
 conda activate sketch
@@ -98,7 +98,7 @@ git clone https://github.com/capableofanything/SKETCH.git
 cd SKETCH
 pip install -r requirements.txt
 ```
-### 📂 Dataset Structure
+### Dataset Structure
 
 #### SHREC'22
 
@@ -120,7 +120,7 @@ SKETCH/
             └── ...
 ```
 
-### 🚀 Demo Script
+### Demo Script
 
 The `demo.py` script generates a small sample of **SHREC'22** windows and corresponding stacked coordinate images.  
 ```bash
@@ -128,7 +128,7 @@ python demo.py --num_files 2 --window 16 --stride 1
 ```
 ---
 
-## 🤝 Community & Contribution   <a id="community--contribution"></a>
+## Community & Contribution   <a id="community--contribution"></a>
 We encourage everyone to try applying **SKETCH** to other human action recognition tasks  
 and share your results or insights with the community!
 
@@ -136,7 +136,7 @@ If you adapt or extend our framework, feel free to open an issue,
 start a discussion, or submit a pull request — we’d love to hear from you.
 
 ---
-## 📚 Citation  <a id="citation"></a>
+## Citation  <a id="citation"></a>
 
 ### Note  
 This paper has been **accepted to NeurIPS 2025 (camera-ready in progress)**.  
@@ -153,11 +153,11 @@ The final citation will be updated upon publication.
 ```
 
 ---
-## 🪪 License <a id="license"></a>
+## License <a id="license"></a>
 This project is licensed under the MIT License.
 
 ---
-## 📧 Contact  <a id="contact"></a>
+## Contact  <a id="contact"></a>
 For questions, collaborations, or feedback, please contact:  
 **SangHoon Han** (Co-first Authors) — [leo4102@sogang.ac.kr](mailto:leo4102@sogang.ac.kr)  
 **Seonho Lee** (Co-first Authors) — [sunhozizi@sogang.ac.kr](mailto:sunhozizi@sogang.ac.kr)  
